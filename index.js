@@ -86,10 +86,11 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-  /*your code here*/
+function addFlavor(arr, str){
+  arr.unshift(str)
+  return arr
  }
-
+addFlavor(originalFlavors,"Rainbow Sherbert")
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
