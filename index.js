@@ -65,9 +65,11 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-  /*your code here*/
+function is31Flavors(arr){
+  return arr.length === 31
  }
+
+ is31Flavors(originalFlavors)
 
 
 
